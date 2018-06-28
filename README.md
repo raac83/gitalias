@@ -2,21 +2,37 @@
 
 [alias]
     gl = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+
     b = branch
+
     d = diff --patience
+
     dc = diff --cached --patience
+
     st = status -sb
+
     ci = commit
+
     ca = commit -a
+
     co = checkout
+
     up = checkout
+
     ff = merge --ff-only
+
     ap = add -p
+
     dl = diff --name-only
+
     st = stash
+
     sl = stash list
+
     sp = stash pop
+
     sa = stash apply
+
     sd = stash drop
 
 [color]
